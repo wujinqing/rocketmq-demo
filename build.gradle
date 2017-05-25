@@ -13,7 +13,9 @@ repositories {
 dependencies {
     compile (
             "org.apache.rocketmq:rocketmq-client:4.0.0-incubating",
-            "org.apache.rocketmq:rocketmq-namesvr:4.0.0-incubating",
+            "org.apache.rocketmq:rocketmq-namesrv:4.0.0-incubating",
+            "org.apache.rocketmq:rocketmq-srvutil:4.0.0-incubating",
+            "org.apache.rocketmq:rocketmq-broker:4.0.0-incubating",
             "org.apache.logging.log4j:log4j-api:2.8",
             "org.apache.logging.log4j:log4j-core:2.8",
             "org.apache.logging.log4j:log4j-slf4j-impl:2.8",
